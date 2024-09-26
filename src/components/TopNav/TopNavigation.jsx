@@ -50,7 +50,7 @@ class TopNavigation extends Component {
 
                         <Nav.Link>  <NavLink className={this.state.navBarItem} to="/course">Khóa Học</NavLink> </Nav.Link>
 
-                        <Nav.Link>  <NavLink className={this.state.navBarItem} to="/porfolio">Về Chúng Tôi</NavLink> </Nav.Link>
+                        <Nav.Link>  <NavLink className={this.state.navBarItem} to="/portfolio">Về Chúng Tôi</NavLink> </Nav.Link>
 
                         <Nav.Link>  <NavLink className={this.state.navBarItem} to="/contact">Liên Hệ</NavLink> </Nav.Link>
                         
