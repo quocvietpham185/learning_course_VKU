@@ -6,11 +6,15 @@ import PageTop from '../components/PageTop/PageTop'
 import TopNavigation from '../components/TopNav/TopNavigation'
 
  class AboutPage extends Component {
+     componentDidMount(){
+          window.scroll(0,0)
+      }
+
      render() {
           return (
                 <Fragment>
                  <TopNavigation />  
-                 <PageTop pagetitle="About Us" />  
+                 <PageTop pagetitle="Về Chúng Tôi" />  
                  <AboutMe />
                  <AboutDescription />
                  <Footer />

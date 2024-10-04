@@ -6,7 +6,7 @@ import {faYoutube} from '@fortawesome/free-brands-svg-icons'
 import {faTwitter} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {faPhone} from '@fortawesome/free-solid-svg-icons'
-
+import {BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Footer extends Component {
      render() {
@@ -52,8 +52,8 @@ class Footer extends Component {
 
      <Col lg="3" md={6} sm={12} className="p-5 text-justify">
      <h2 className="footerName ">Chính sách  </h2>
-     <a className="footerLink" href="#">Fefund Policy  </a> <br></br>
-     <a className="footerLink" href="#">Trems And Condition  </a> <br></br>
+     <Link className="footerLink" to="/refund">Chính sách bảo hành </Link> <br></br>
+     <Link className="footerLink" to="/trems">Trems And Condition  </Link> <br></br>
      <a className="footerLink" href="#">Privaci Policy   </a> <br></br>
      </Col>
                          </Row>

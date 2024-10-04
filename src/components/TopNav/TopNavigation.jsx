@@ -35,7 +35,7 @@ class TopNavigation extends Component {
            <Fragment>
               
               <Navbar className={this.state.navBarBack} collapseOnSelect fixed="top" expand="lg" variant={this.state.navVariant}>                <Container>
-                    <Navbar.Brand className={this.state.navBarTitle} href="#home">Learning </Navbar.Brand>
+              <Navbar.Brand className={this.state.navBarTitle} ><NavLink to="/"> <img src={this.state.navBarLogo} /> </NavLink> </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
@@ -50,7 +50,7 @@ class TopNavigation extends Component {
 
                         <Nav.Link>  <NavLink className={this.state.navBarItem} to="/course">Khóa Học</NavLink> </Nav.Link>
 
-                        <Nav.Link>  <NavLink className={this.state.navBarItem} to="/porfolio">Về Chúng Tôi</NavLink> </Nav.Link>
+                        <Nav.Link>  <NavLink className={this.state.navBarItem} to="/portfolio">Về Chúng Tôi</NavLink> </Nav.Link>
 
                         <Nav.Link>  <NavLink className={this.state.navBarItem} to="/contact">Liên Hệ</NavLink> </Nav.Link>
                         

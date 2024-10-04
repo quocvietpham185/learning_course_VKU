@@ -2,7 +2,7 @@ import React, {Component, Fragment,} from 'react';
 import {Card, Container, Button, Row, Col } from 'react-bootstrap';
 import '../../assets/css/custom.css';
 import '../../assets/css/bootstrap.min.css'
-
+import {  BrowserRouter as Router,  Link } from 'react-router-dom';
 
 class RecentProject extends Component {
         render() {
@@ -38,8 +38,7 @@ class RecentProject extends Component {
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
                                 </Card.Text>
-                                <Button variant="primary">Vist WebSite</Button>
-                            </Card.Body>
+                                <Button variant="primary"><Link className="link-style" to="/projectdetails"> View More </Link>  </Button>                            </Card.Body>
                             </Card>
                              </Col>
 
@@ -53,8 +52,7 @@ class RecentProject extends Component {
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
                                 </Card.Text>
-                                <Button variant="primary">Vist WebSite</Button>
-                            </Card.Body>
+                                <Button variant="primary"><Link className="link-style" to="/projectdetails"> View More </Link>  </Button>                            </Card.Body>
                             </Card>
                         </Col>
            
